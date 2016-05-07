@@ -1,6 +1,6 @@
 {
   "name": "react-null",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "return null component of react",
   "main": "./lib/index.js",
   "scripts": {
