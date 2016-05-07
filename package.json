@@ -1,6 +1,6 @@
 {
   "name": "react-null",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "return null component of react",
   "main": "./lib/index.js",
   "scripts": {
@@ -19,12 +19,15 @@
     "babel-preset-react": "^6.5.0"
   },
   "dependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://hsuting@bitbucket.org/hsuting/null.git"
-  },
-  "homepage": "https://bitbucket.org/hsuting/null#readme",
   "peerDependencies": {
     "react": "^15.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HsuTing/react-null.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HsuTing/react-null/issues"
+  },
+  "homepage": "https://github.com/HsuTing/react-null#readme"
 }
