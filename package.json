@@ -1,0 +1,30 @@
+{
+  "name": "react-null",
+  "version": "1.0.0",
+  "description": "return null component of react",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ./lib && babel --presets es2015,react -w --stage 0 src --out-dir lib"
+  },
+  "keywords": [
+    "null",
+    "react"
+  ],
+  "author": "HsuTing",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.8.0",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://hsuting@bitbucket.org/hsuting/null.git"
+  },
+  "homepage": "https://bitbucket.org/hsuting/null#readme",
+  "peerDependencies": {
+    "react": "^15.0.2"
+  }
+}
