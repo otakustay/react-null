@@ -2,8 +2,8 @@
 
 import React from 'react';
 
-export default class Null extends React.Component {
-  render() {
-    return null;
-  }
-};
+const Null = () => null;
+
+Null.displayName = 'Null';
+
+export default Null;
